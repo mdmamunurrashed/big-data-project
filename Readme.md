@@ -91,9 +91,9 @@ python3 -m notebook
 **Put the all .csv files in the same directory as .ipnyb:**
 | File | Source | Rows | Columns | Notes |
 |---|---|---|---|---|
-| `bgdrainfallsubnatfull.csv` | FEWS NET/CHIRPS | 120K+ | 15 | Daily decadal rainfall, subnational |
-| `wfp_food_prices_bgd.csv` | WFP VAM | 19K+ | 16 | Market-level price observations |
-| `externaldebt_bgd.csv` | World Bank IDS | 2.6K | 6 | Annual national debt indicators |
+| `bgdrainfallsubnatfull.csv` | NASA POWER HDX | 120K+ | 15 | Daily decadal rainfall, subnational |
+| `wfp_food_prices_bgd.csv` | WFP HDX | 19K+ | 16 | Market-level price observations |
+| `externaldebt_bgd.csv` | World Bank HDX | 2.6K | 6 | Annual national debt indicators |
 
 **Notebook will auto-load from working directory:**
 ```python
