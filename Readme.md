@@ -11,9 +11,6 @@ End-to-end big data pipeline analyzing the causal chain: **Rainfall → Food Pri
 
 **Scope:** 1999–2024 | 8 Bangladeshi divisions (adm_level=1) | ~2,496 rows (26 years × 12 months × 8 divisions)
 
----
-
----
 
 ## Installation & Setup (Ubuntu + Jupyter + PySpark)
 
@@ -76,7 +73,6 @@ jupyter --version
 java -version
 ```
 
----
 
 ## Running the Project
 
@@ -106,7 +102,6 @@ fp = spark.read.csv('wfp_food_prices_bgd.csv', header=True, inferSchema=True)
 dbt = spark.read.csv('externaldebt_bgd.csv', header=True, inferSchema=True)
 ```
 
----
 
 ## Pipeline Steps
 
@@ -121,7 +116,6 @@ dbt = spark.read.csv('externaldebt_bgd.csv', header=True, inferSchema=True)
 9. **Interactive Demo** → ipywidgets UI (price/debt/risk prediction)
 10. **Export Results** → merged_bgd_dataset.csv, model summaries
 
----
 
 ## Project Outcomes
 
